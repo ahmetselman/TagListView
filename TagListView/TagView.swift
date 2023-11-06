@@ -210,7 +210,7 @@ open class TagView: UIButton {
         super.layoutSubviews()
         if enableRemoveButton {
             removeButton.frame.size.width = 16
-            removeButton.frame.origin.x = self.frame.width - removeButton.frame.width - 3
+            removeButton.frame.origin.x = self.frame.width - removeButton.frame.width - 8
             removeButton.frame.size.height = 16
             removeButton.frame.origin.y = self.frame.height / 2 - 8
         }
