@@ -209,10 +209,10 @@ open class TagView: UIButton {
     open override func layoutSubviews() {
         super.layoutSubviews()
         if enableRemoveButton {
-            removeButton.frame.size.width = paddingX + removeButtonIconSize + paddingX
-            removeButton.frame.origin.x = self.frame.width - removeButton.frame.width
-            removeButton.frame.size.height = self.frame.height
-            removeButton.frame.origin.y = 0
+            removeButton.frame.size.width = 16
+            removeButton.frame.origin.x = self.frame.width - removeButton.frame.width - 8
+            removeButton.frame.size.height = 16
+            removeButton.frame.origin.y = self.frame.height / 2 - 8
         }
     }
 }
