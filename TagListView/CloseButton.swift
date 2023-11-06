@@ -11,7 +11,7 @@ import UIKit
 internal class CloseButton: UIButton {
 
     var iconSize: CGFloat = 10 // İkon boyutu olarak kullanılacak
-    var lineWidth: CGFloat = 4
+    var lineWidth: CGFloat = 10
     var lineColor: UIColor = .white // "X" işareti için beyaz renk
     var circleColor: UIColor = UIColor(red: 12/255, green: 33/255, blue: 58/255, alpha: 1) // Arka plan daire rengi
 
